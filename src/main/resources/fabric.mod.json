@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "benium",
+  "version": "${version}",
+
+  "name": "Benium Client",
+  "description": "A hacking client for Minecraft",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCX7KIr047H01FSlOJR5rJGA",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rapierxbox.beniumclient.BeniumClient"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
