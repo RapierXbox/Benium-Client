@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.rapierxbox.beniumclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AutoFishMixin",
+    "GameMenuScreenMixin",
+    "MinecraftClientMixin",
+    "WorldRendererMixin",
+    "HudMixin",
+    "XRayMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
